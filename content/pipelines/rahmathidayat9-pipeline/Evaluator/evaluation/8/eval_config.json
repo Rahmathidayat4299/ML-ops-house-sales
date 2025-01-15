@@ -1,0 +1,36 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "price"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "MeanAbsoluteError"
+          },
+          {
+            "className": "MeanSquaredError"
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.47.1",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "pipelines/rahmathidayat9-pipeline/Trainer/model/6/Format-Serving"
+  }
+}

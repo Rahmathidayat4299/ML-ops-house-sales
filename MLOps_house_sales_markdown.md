@@ -1,0 +1,10 @@
+| Informasi                | Deskripsi                                                                                                                                                                                                 |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Dataset**              | **Nama Dataset:**  House Sales Dataset<br>**Jumlah data:** 21,613 baris<br>**Jumlah fitur:** 16 kolom setelah preprocessing (menghapus kolom id, date, zipcode, lat, dan long)                      |
+| **Persoalan**            | Prediksi harga rumah berdasarkan fitur-fitur seperti jumlah kamar tidur, jumlah kamar mandi, luas bangunan, luas tanah, tahun renovasi, dll.                                                              |
+| **Solusi Machine Learning** | Membuat model prediksi berbasis supervised learning menggunakan Neural Network.<br>**Target:** Menurunkan Mean Absolute Error (MAE) serendah mungkin untuk meningkatkan akurasi prediksi harga rumah. |
+| **Metode Pengolahan Data** | - Menghapus kolom yang tidak relevan (id, date, zipcode, lat, long).<br>- Memastikan tidak ada nilai kosong dalam dataset.<br>- Normalisasi data numerik untuk memastikan keseragaman skala fitur.     |
+| **Arsitektur Model**     | **Jenis Model:** Neural Network<br>**Arsitektur:**<br>- Input layer: 15 fitur<br>- Hidden layers: 2-3 dense layers dengan fungsi aktivasi ReLU<br>- Output layer: 1 neuron dengan fungsi aktivasi linear<br>- Optimizer: Adam<br>- Loss Function: Mean Squared Error |
+| **Metrik Evaluasi**      | Mean Absolute Error (MAE) digunakan untuk mengevaluasi performa model.                                                                                                                                   |
+| **Performa Model**       | **Hasil evaluasi model selama 10 epoch:**                                                                                                                                                                 |
+
